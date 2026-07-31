@@ -19,8 +19,8 @@ This document lists approved third-party SaaS products, APIs, and external vendo
 
 | Service | Purpose | Ring | Notes |
 |---|---|---|---|
-| **[Approved Email Provider]** | Transactional email | ✅ Approved | Replace placeholder with the approved provider once vendor approval is completed. Used by `notification-service`. |
-| **[Approved SMS Provider]** | Transactional SMS | ✅ Approved | Replace placeholder with the approved provider once vendor approval is completed. Used by `notification-service`. |
+| **[Approved Email Provider]** | Transactional email | ✅ Approved | Do not treat this placeholder as an approved vendor. Replace it with the approved provider once vendor approval is completed. Used by `notification-service`. |
+| **[Approved SMS Provider]** | Transactional SMS | ✅ Approved | Do not treat this placeholder as an approved vendor. Replace it with the approved provider once vendor approval is completed. Used by `notification-service`. |
 | **Slack** | Internal team communication | ✅ Approved | Webhook integrations permitted for alerts and notifications. |
 
 ---
@@ -29,7 +29,7 @@ This document lists approved third-party SaaS products, APIs, and external vendo
 
 | Service | Purpose | Ring | Notes |
 |---|---|---|---|
-| **[OAuth Provider]** | Social login (Google, GitHub, etc.) | ✅ Approved | Replace placeholder with approved provider(s). Handled via `auth-service`. |
+| **[OAuth Provider]** | Social login | ✅ Approved | Do not treat this placeholder as an approved vendor. Replace it with the approved provider(s) once vendor approval is completed. Handled via `auth-service`. |
 
 ---
 
