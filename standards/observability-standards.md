@@ -61,7 +61,7 @@ Additional fields for HTTP requests:
 
 **Always log:**
 - Service startup and shutdown.
-- All authentication events (success and failure).
+- All authentication events (success and failure) — include a non-PII actor identifier such as an internal `user_id` rather than email, username, or other personal data.
 - All authorization failures.
 - Significant state mutations (create, update, delete) — include actor identity and entity ID.
 - All `error` and `fatal` events with stack traces.

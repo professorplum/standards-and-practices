@@ -95,7 +95,7 @@ Each entry includes:
 
 ## Event Bus Topics
 
-> All events follow the naming convention `<domain>.<entity>.<action>` (e.g., `orders.order.created`).
+> All events follow the naming convention `<domain>.<event>` (e.g., `user.created`).
 
 | Topic | Publisher | Consumers | Schema Location |
 |---|---|---|---|

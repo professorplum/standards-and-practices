@@ -19,8 +19,8 @@ This document lists approved third-party SaaS products, APIs, and external vendo
 
 | Service | Purpose | Ring | Notes |
 |---|---|---|---|
-| **[Email Provider]** | Transactional email | ✅ Approved | Replace placeholder with approved provider (e.g., SendGrid, Postmark, AWS SES). Used by `notification-service`. |
-| **[SMS Provider]** | Transactional SMS | ✅ Approved | Replace placeholder with approved provider (e.g., Twilio). Used by `notification-service`. |
+| **[Approved Email Provider]** | Transactional email | ✅ Approved | Replace placeholder with the approved provider once vendor approval is completed. Used by `notification-service`. |
+| **[Approved SMS Provider]** | Transactional SMS | ✅ Approved | Replace placeholder with the approved provider once vendor approval is completed. Used by `notification-service`. |
 | **Slack** | Internal team communication | ✅ Approved | Webhook integrations permitted for alerts and notifications. |
 
 ---

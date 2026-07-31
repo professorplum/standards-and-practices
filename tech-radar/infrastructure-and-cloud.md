@@ -11,7 +11,7 @@
 
 | Technology | Ring | Notes |
 |---|---|---|
-| **[Primary Cloud Provider]** | ✅ Approved | All production infrastructure runs here. Replace this placeholder with your actual provider (AWS / GCP / Azure). |
+| **Primary Cloud Provider (TODO)** | ⚠️ Restricted | TODO: select and document the primary cloud provider for production infrastructure. Do not treat this placeholder as an approved value. |
 | **Multi-cloud** | ⚠️ Restricted | Permitted only for specific DR or compliance scenarios. Requires ADR. Avoid multi-cloud by default — operational complexity is high. |
 
 ---
@@ -57,7 +57,7 @@
 | **API Gateway (managed)** | ✅ Approved | See the service catalog for the specific product in use. |
 | **Nginx** | ✅ Approved | Permitted as an ingress controller and reverse proxy. |
 | **Traefik** | 🔵 Trial | Permitted as a Kubernetes ingress alternative to Nginx. |
-| **HAProxy** | ⚠️ Restricted | Legacy only. No new HAProxy deployments. |
+| **HAProxy** | 🚫 Banned | No new HAProxy deployments. Prefer Nginx or Traefik for ingress and reverse proxy use. |
 
 ---
 
@@ -71,7 +71,7 @@
 | **Jaeger / Tempo** | ✅ Approved | Distributed tracing backend. |
 | **ELK / EFK stack** | 🔵 Trial | Approved for log aggregation. Elasticsearch, Fluentd/Logstash, Kibana. |
 | **Datadog** | 🔵 Trial | Permitted as a managed observability alternative. Requires cost review for production use. |
-| **New Relic** | ⚠️ Restricted | Permitted in existing integrations only. No new New Relic usage. |
+| **New Relic** | 🚫 Banned | No new New Relic usage. Prefer Prometheus, Grafana, and OTel for observability. |
 
 ---
 
